@@ -1,0 +1,37 @@
+
+{
+    "$schema": "http://json-schema.org/draft-04/hyper-schema#",		// (a)
+    "id": "http://schema.gihyo.jp/email/1.0/domain.json",
+    "title": "domainリソース",
+    "type": "object",
+    "properties": { ... },	// (b)
+    "links": [			// (c)
+	{
+	    "title": "Get domain interface",
+	    "rel": "self",	// (d)
+	    "method": "GET",	// (e)
+	    "href": "/api/1.0/domains{/domain}",// (f)
+	    "mediaType": "application/json",	// (g)
+	    "targetSchema": { "$ref": "#" }	// (h)
+	},
+
+	{
+	    "title": "Create domain resource",
+	    "rel": "create",
+	    "method": "POST",
+	    "href": "/api/1.0/domains",
+	    "encType": "application/json",
+	    "schema": { "$ref": "#" },
+	    "mediaType": "application/json",
+	    "targetSchema": { "$ref", "#" },
+	},
+
+	{
+	    "title": "Remove domain resource",
+	    "rel": "self",
+	    "method": "DELETE",
+	    "href": "/api/1.0/domains{/domain}",
+	},
+    ]
+}
+
