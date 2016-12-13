@@ -7,6 +7,7 @@ int main( int argc, char *argv[] )
   printf( "on Master branch.\n" );
 
   printf( "branch-push-merge.\n" );
+  printf( "branch-push-merge part2.\n" );
 
   return EXIT_SUCCESS;
 }
