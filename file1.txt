@@ -1,5 +1,0 @@
-This is text file.
-Marker "A"
-Marker "B"
-eof
-Another Marker "f"
