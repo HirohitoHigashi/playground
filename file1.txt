@@ -1,4 +1,4 @@
 This is text file.
-Marker "d"
+Marker "A"
 eof
 Another Marker "f"
