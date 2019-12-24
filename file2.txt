@@ -1,4 +1,1 @@
-This is text file.
-Marker "D"
-eof
-edit on master branch.
+edited on feature_branch_1 branch.
