@@ -1,7 +1,7 @@
-# playground
-Private test and training.
+# mrubyc-nucleo-F401RE
+Nucleo-F401RE (STM32F401RET6) へ、mruby/c w/ MPIG 移植
 
-## Header level 2
+Microcontroller peripheral interface guide
 
-text1
-text2
+  https://github.com/mruby/microcontroller-peripheral-interface-guide
+
