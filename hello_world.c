@@ -3,11 +3,12 @@
 
 int main( int argc, char *argv[] )
 {
-  printf( "Hello another world in feature-one.\n" );
-  printf( "on Master branch.\n" );
+  printf("Hello another world in feature-one.\n");
+  printf("on Master branch.\n");
 
-  printf( "branch-push-merge.\n" );
-  printf( "branch-push-merge part2.\n" );
+  printf("branch-push-merge.\n");
+  printf("branch-push-merge part2.\n");
+  printf("Release 4.0\n");
 
   return EXIT_SUCCESS;
 }
